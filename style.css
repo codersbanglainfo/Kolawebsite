@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto; 
+}
+header{
+    background-color: #D7E6C9;
+    color: rgb(104, 180, 73);
+    font-family: poppins, sans-serif;
+    height: 100vh;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    padding: 30px 40px;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left:20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #4C9A2A;
+}
+nav ul li a:hover{
+    color: #e4073e;
+    text-decoration: underline;
+}
+.Heroarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-top: 120px ;
+}
+.Heroarea .Text{
+    width: 50%;
+    margin-left: 100px;
+    
+}
+.Heroarea .rightimage{
+    width: 50%;
+    
+}
+.Heroarea .Text img{
+    width: 200px;
+    margin-left: 100px;
+    opacity: 0.5;
+
+}
+.Heroarea .rightimage img{
+    margin-top: -250px;
+    float: right;
+    width: auto;
+    height: auto;
+    
+}
+.Heroarea .Text h1{
+    font-size: 50px;
+    line-height: 50px;
+    color: rgb(51, 51, 51);
+}
+.Heroarea .Text .Natural{
+    color: #4C9A2A;
+}
+.Heroarea .Text .Natural:hover{
+    color: #e4073e;
+}
+
+.Heroarea .Text p{
+    margin: 15px 0;
+    font-size: 18px;
+    color: rgb(114, 156, 108);
+}
+.Heroarea .Text button{
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4C9A2A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Heroarea .Text button:hover{
+    background-color: #e4073e;
+}
+/* About Section */
+
+.aboutsection .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-top: 20px ;
+}
+
+
+.aboutsection .wrapper .imageside img{
+    width: 600px; 
+}
+.aboutsection .wrapper .imageside{
+    width: 50%;
+}
+.aboutsection .wrapper .rightside{
+    width: 50%;
+}
+.aboutsection .wrapper .rightside .circleabout{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.aboutsection .wrapper .rightside .circleabout span{
+    background-color: rgba(253, 228, 87, 0.562);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-size: 30px;    
+    font-family: poppins, sans-serif;
+    font-weight: 800;
+}
+.aboutsection .wrapper .rightside .circleabout h1{
+    font-size: 30px;
+    color: rgb(51, 51, 51);
+    font-family: poppins, sans-serif;
+}
+.aboutsection .wrapper .rightside .circleabout h1:hover{
+    color: #e4073e;
+}
+.pineapple{
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-family: poppins, sans-serif;
+    text-align: justify;
+}
+.readmore{
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #4C9A2A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.readmore:hover{
+    background-color: #e4073e;
+}
+/* About Section End */
+
+/* Testimonial Section  */
+.testimonialsection{
+    background-color: azure;
+    padding: 50px 0;
+}
+.testimonialsection .wrapper{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+}
+.testimonialsection .wrapper .rightside .testimonialtext span{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-size: 30px;    
+    font-family: poppins, sans-serif;
+    font-weight: 800; 
+    background-color: #e4073e86;
+    color: black;
+}
+.testimonialsection .wrapper .rightside{
+    width: 50%; 
+}
+.testimonialsection .wrapper .rightside .testimonialtext {
+    display: flex;  
+    align-items: center;
+    gap: 20px;
+    font-family: poppins, sans-serif;
+    color: rgb(51, 51, 51);
+    
+}
+.testimonialsection .wrapper .rightside .testimonialtext:hover{
+    color: #e4073e;
+}
+
+.testimonialsection .wrapper .rightside .card{
+    background-color: rgba(255, 235, 51, 0.128);
+    border-radius: 10px;
+    font-family: poppins, sans-serif;
+    align-items: center;
+    margin-top: 20px;  
+    display: flex;
+}
+.testimonialsection .wrapper .rightside .card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.testimonialsection .wrapper .rightside .card2{
+    background-color: rgba(253, 43, 78, 0.128);
+    border-radius: 10px;
+    font-family: poppins, sans-serif;
+    align-items: center;
+    margin-top: 20px;  
+    display: flex;
+}
+.testimonialsection .wrapper .rightside .card3{
+    background-color: rgba(114, 203, 103, 0.128);
+    border-radius: 10px;
+    font-family: poppins, sans-serif;
+    align-items: center;
+    margin-top: 20px;  
+    display: flex;
+}
+.testimonialsection .wrapper .rightside .card2 h3{
+    color: rgba(0, 0, 0, 0.744);
+    font-size: 16px;
+}
+.testimonialsection .wrapper .rightside .card2 h5{
+    color: rgba(0, 0, 0, 0.459);
+    font-size: 12px;
+}
+.testimonialsection .wrapper .rightside .card3 p{
+    color: rgba(0, 0, 0, 0.744);
+    font-size: 14px;
+}
+.testimonialsection .wrapper .rightside .card3 h3{
+    color: rgba(0, 0, 0, 0.744);
+    font-size: 16px;
+}
+.testimonialsection .wrapper .rightside .card3 h5{
+    color: rgba(0, 0, 0, 0.459);
+    font-size: 12px;
+}
+.testimonialsection .wrapper .rightside .card3 p{
+    color: rgba(0, 0, 0, 0.744);
+    font-size: 14px;
+}
+.testimonialsection .wrapper .rightside .card h3{
+    color: rgba(0, 0, 0, 0.744);
+    font-size: 16px;
+}
+.testimonialsection .wrapper .rightside .card h5{
+    color: rgba(0, 0, 0, 0.459);
+    font-size: 12px;
+}
+.testimonialsection .wrapper .rightside .card p{
+    color: rgba(0, 0, 0, 0.744);
+    font-size: 14px;
+}
+/* Testimonial Section End */
+/* Featured Products Start*/
+ .productsection .testimonialtext {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+.productsection .testimonialtext span{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-size: 30px;    
+    font-family: poppins, sans-serif;
+    font-weight: 800; 
+    background-color: #18b43f86;
+    color: black;
+}
+.productsection .testimonialtext h1{
+    font-family: poppins;
+    justify-content: space-between;
+    padding-left: 10px;
+    color: rgb(44, 44, 44);
+}
+.productsection .testimonialtext h1:hover{
+    color: #e4073e;
+}
+
+
+
+/* Featured Products End */
+
+
+/* Responsive Styles */
+
+/* ইমেজের জন্য গ্লোবাল ফিক্স */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ট্যাবলেট এবং মোবাইল ডিভাইসের জন্য (Max-width: 992px) */
+@media (max-width: 992px) {
+    header {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .Heroarea {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .Heroarea .Text, .Heroarea .rightimage {
+        width: 100%;
+        margin-left: 0;
+    }
+    .Heroarea .rightimage img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-right: 0;
+        float: none;
+    }
+    .Heroarea .Text img {
+        margin-left: 0;
+    }
+    .aboutsection .wrapper, .testimonialsection .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .aboutsection .wrapper .imageside, .aboutsection .wrapper .rightside,
+    .testimonialsection .wrapper .rightside {
+        width: 100%;
+    }
+    .aboutsection .wrapper .rightside .circleabout {
+        justify-content: center;
+    }
+}
+
+/* ছোট মোবাইল ডিভাইসের জন্য (Max-width: 600px) */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav ul li {
+        margin: 5px 10px;
+    }
+    .Heroarea .Text h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .testimonialsection .wrapper .rightside .card {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+    .testimonialsection .wrapper .rightside .testimonialtext {
+        justify-content: center;
+    }
+}
